@@ -29,3 +29,33 @@
 //     val = Math.floor(val / 10);
 // }
 // console.log(reverse);
+
+// ---------------Palindrome Number------------------//
+
+// let num = 1331;
+// let original = num;
+// let reverse = 0;
+
+// while(num > 0){
+//     last_digits = num%10;
+//     reverse = reverse*10 + last_digits;
+//     num = Math.floor(num / 10);
+// }
+// if(original === reverse){
+//     console.log("Palindrome Number")
+// }else{
+//     console.log("Not a Palindrome Number")
+// }
+ 
+
+// ------:leetcode Problem :-----
+// var isPalindrome = function(x) {
+//     let reverse = 0;
+//     let copy = x;
+//     while(copy > 0){
+//         const last_digits = copy % 10;
+//         reverse = reverse*10 + last_digits;
+//         copy = Math.floor(copy/10);
+//     }
+//     return reverse == x;
+// };
