@@ -35,3 +35,5 @@
 // const gcd = a;
 // const lcm = (x * y) / gcd;
 // console.log(lcm);
+
+
